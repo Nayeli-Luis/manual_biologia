@@ -1,0 +1,19 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: 00_intro
+parts:
+  - caption: Biomoléculas
+    chapters:
+    - file: 01_biomoleculas
+  - caption: Estructura del DNA
+    chapters:
+    - file: 02_estructura_DNA
+  - caption: Dogma central de la biología molecular
+    chapters:
+    - file: 03_dogma_central/00_dogma_central
+    - file: 03_dogma_central/01_replicacion
+  - caption: Glosario
+    chapters:
+    - file: Glosario
