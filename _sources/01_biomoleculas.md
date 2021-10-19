@@ -13,8 +13,6 @@ Aquí un video que explica con detalle las biomoléculas.
 
 :::
 
-
-
 ## Concepto de biomolécula
 
 Todas los seres vivos estamos compuestos de ***biomoléculas***, las cuales permiten nuestra supervivencia. La biomoléculas son ***polímeros*** constituidos por unidades elementales llamadas ***monómeros***. Imaginemos que un collar de perlas es una polímero, por tanto, una perla sería su monómero, pues el conjunto de éstas formaría la preciada joya.
