@@ -61,7 +61,7 @@ name: replicacion_paso2
 ---
 Paso 2 de la replicación: Copia del DNA.
 ```
-:::{admonition} Tip
+:::{admonition} Animación de la replicación
 :class: tip
 Una vez que hayas terminado de leer éste apartado te recomiendo ver el siguiente video: <a href = "https://www.youtube.com/watch?v=TNKWgcFPHqw"> Replicación del DNA </a>, de esa forma quedará más claro el proceso y podrás visualizarlo como una peli.
 :::

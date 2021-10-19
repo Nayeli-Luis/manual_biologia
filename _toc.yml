@@ -14,6 +14,8 @@ parts:
     chapters:
     - file: 03_dogma_central/00_dogma_central
     - file: 03_dogma_central/01_replicacion
+    - file: 03_dogma_central/02_transcripcion
+    - file: 03_dogma_central/03_traduccion
   - caption: Glosario
     chapters:
     - file: Glosario

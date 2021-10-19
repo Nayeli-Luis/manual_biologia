@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Replicación &#8212; Genómica computacional. Manual de biología molecular para no biólogos.</title>
+    <title>Traducción &#8212; Genómica computacional. Manual de biología molecular para no biólogos.</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -51,8 +51,8 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Transcripción" href="02_transcripcion.html" />
-    <link rel="prev" title="¿Qué es?" href="00_dogma_central.html" />
+    <link rel="next" title="Glosario" href="../Glosario.html" />
+    <link rel="prev" title="Transcripción" href="02_transcripcion.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -124,8 +124,8 @@
    ¿Qué es?
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="01_replicacion.html">
    Replicación
   </a>
  </li>
@@ -134,8 +134,8 @@
    Transcripción
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="03_traduccion.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Traducción
   </a>
  </li>
@@ -192,7 +192,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/03_dogma_central/01_replicacion.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/03_dogma_central/03_traduccion.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -212,7 +212,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F03_dogma_central/01_replicacion.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F03_dogma_central/03_traduccion.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -239,18 +239,33 @@
             <nav id="bd-toc-nav">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#caracteristicas-de-la-replicacion">
-   Características de la replicación
+  <a class="reference internal nav-link" href="#el-ribosoma">
+   El ribosoma
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#paso-1-desenrrollamiento-del-dna-y-apertura-de-las-hebras">
-   Paso 1: Desenrrollamiento del DNA y apertura de las hebras
+  <a class="reference internal nav-link" href="#rna-de-transferencia-trna">
+   RNA de transferencia (tRNA)
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#paso-2-copia-del-dna">
-   Paso 2: Copia del DNA
+  <a class="reference internal nav-link" href="#paso-1-iniciacion">
+   Paso 1. Iniciación
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#paso-2-elongacion">
+   Paso 2. Elongación
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#paso-3-terminacion">
+   Paso 3: Terminación
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#modificaciones-post-traduccion">
+   Modificaciones post-traducción
   </a>
  </li>
 </ul>
@@ -264,60 +279,78 @@
         
               <div>
                 
-  <div class="section" id="replicacion">
-<h1>Replicación<a class="headerlink" href="#replicacion" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="traduccion">
+<h1>Traducción<a class="headerlink" href="#traduccion" title="Permalink to this headline">¶</a></h1>
 <div class="note admonition">
 <p class="admonition-title">Videos</p>
-<p>Video de <a href = "https://drive.google.com/file/d/1YaQJrvrsS_nQoNvC2DM6hXse7lpKIRpz/view"> Replicación </a></p>
+<p>Video de <a href = "https://drive.google.com/file/d/182dT8FwbI17KaeZ5Fq7TUuGw1hAI1Thb/view?usp=sharing"> Traducción </a></p>
 </div>
-<p>El DNA se replica para producir copias de si mismo para que éstas copias se pasen de célula madre a célula hija, de manera que se conserve exactamente la misma información. Como organismos, todo el tiempo estamos generando células nuevas, de manera que toooodo el tiempo nuestro DNA se está replicando para conservar la información necesaria para que nuestras células funcionen como deben.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>La replicación del DNA NO es lo mismo que la división celular.</p>
+<p>La traducción consiste en literalmente traducir el mRNA a proteínas. Éste proceso se lleva a cabo en un complejo llamado ribosoma y se requiere la intervención de RNAs de transferencia (tRNAs), que serán las moléculas encargadas de leer el mRNA y unir el aminoácido que corresponderá a cada codón. Antes de estudiar el proceso, veremos un poco sobre los ribosomas y los tRNAs.</p>
+<div class="section" id="el-ribosoma">
+<h2>El ribosoma<a class="headerlink" href="#el-ribosoma" title="Permalink to this headline">¶</a></h2>
+<p>Los ribosomas son complejos que permiten la fabricación de proteínas a partir del mRNA, están compuestos por dos subunidades, una grande y una pequeña. Los ribosomas se miden en unidades de Svedberg (S) (que es un cofieciente de sedimentación de un partícula o macromolécula). Los ribosomas diferentes tamaños en eucariontes y en procariontes. En eucariontes miden 80S, la subunidad grande mide 60S y la subinidad pequeña 40S, por su parte, en los procariontes los ribosomas miden 70S, la subunidad grande 50S y la pequeña 30S (ver <a class="reference internal" href="#ribosoma"><span class="std std-ref">Tamaño del ribosoma en eucariontes y procariontes</span></a>).</p>
+<br>
+<div class="figure align-default" id="ribosoma">
+<a class="reference internal image-reference" href="../_images/ribosoma_tamaño.png"><img alt="../_images/ribosoma_tamaño.png" src="../_images/ribosoma_tamaño.png" style="height: 250px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 13 </span><span class="caption-text">Tamaño del ribosoma en eucariontes y procariontes</span><a class="headerlink" href="#ribosoma" title="Permalink to this image">¶</a></p>
 </div>
-<div class="section" id="caracteristicas-de-la-replicacion">
-<h2>Características de la replicación<a class="headerlink" href="#caracteristicas-de-la-replicacion" title="Permalink to this headline">¶</a></h2>
+<br>
+</div>
+<div class="section" id="rna-de-transferencia-trna">
+<h2>RNA de transferencia (tRNA)<a class="headerlink" href="#rna-de-transferencia-trna" title="Permalink to this headline">¶</a></h2>
+<p>El RNA de transferencia es una molécula pequeña de RNA que participa en la síntesis de proteínas. Tiene dos áreas importantes, una región de trinucleótidos llamada anticodón y una región para unir un aminoácido específico. Durante la traducción, cada vez que se agrega un aminoácido a la cadena en crecimiento, una molécula de tRNA forma pares de bases con su secuencia complementaria en la molécula de mRNA, asegurando que el aminoácido se inserte en la proteína (ver <a class="reference internal" href="#trna"><span class="std std-ref">Estructura de un tRNA.</span></a>).</p>
+<br>
+<div class="figure align-default" id="trna">
+<a class="reference internal image-reference" href="../_images/tRNA.png"><img alt="../_images/tRNA.png" src="../_images/tRNA.png" style="height: 250px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 14 </span><span class="caption-text">Estructura de un tRNA.</span><a class="headerlink" href="#trna" title="Permalink to this image">¶</a></p>
+</div>
+<br>
+</div>
+<div class="section" id="paso-1-iniciacion">
+<h2>Paso 1. Iniciación<a class="headerlink" href="#paso-1-iniciacion" title="Permalink to this headline">¶</a></h2>
+<p>Primero, el tRNA se une a la subunidad pequeña del ribosoma, y juntos se unen al extremo 5’ del mRNA. En eucariontes, la sección reconocible es la CAP 5’ que se encuentra antes de los codones de inicio. Mientras que, en procariontes, la sección reconocible es una secuencia pequeña llamada secuencia Shine-Delgarno, que se encuentra justo antes de los codones de inicio (ver <a class="reference internal" href="#iniciacion"><span class="std std-ref">Iniciación de la traducción.</span></a>).</p>
+<br>
+<div class="figure align-default" id="iniciacion">
+<a class="reference internal image-reference" href="../_images/traduccion_iniciacion.png"><img alt="../_images/traduccion_iniciacion.png" src="../_images/traduccion_iniciacion.png" style="height: 450px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 15 </span><span class="caption-text">Iniciación de la traducción.</span><a class="headerlink" href="#iniciacion" title="Permalink to this image">¶</a></p>
+</div>
+<br>
+</div>
+<div class="section" id="paso-2-elongacion">
+<h2>Paso 2. Elongación<a class="headerlink" href="#paso-2-elongacion" title="Permalink to this headline">¶</a></h2>
+<p>Durante éste paso crece la cadena de aminoácidos para formar la proteína. El primer tRNA lleva metionina, y comienza en el espacio del centro del ribosoma, el sitio P. Junto a éste espacio hay otro codón y en el ribosoma corresponde al espacio A (de aterrizaje), en donde llegará otro tRNA con el anticodón correcto para la unión del aminoácido correspondiente. Para esto, el aminoácido generado en el espacio P, se unirá con el aminoácido generado en el espacio A (ver primera ilustración de <a class="reference internal" href="#elongacion"><span class="std std-ref">Proceso de elongación.</span></a>).</p>
+<br>
+<div class="figure align-default" id="elongacion">
+<a class="reference internal image-reference" href="../_images/traduccion_elongacion.png"><img alt="../_images/traduccion_elongacion.png" src="../_images/traduccion_elongacion.png" style="height: 450px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 16 </span><span class="caption-text">Proceso de elongación.</span><a class="headerlink" href="#elongacion" title="Permalink to this image">¶</a></p>
+</div>
+<br>
+<p>Una vez que se unen los aminoácidos, el mRNA avanza a través del ribosoma exactamente un codón. Este avance permite que el primer tRNa, que ya no tiene nada, salga a través del sitio E ( de éxito total o <em>exit</em> en inglés). Y ese avance, también permite que el sitio A quede expuesto para la llegada de otro tRNA con otro anticodón para otro aminoácido (ver segunda ilustración de <a class="reference internal" href="#elongacion"><span class="std std-ref">Proceso de elongación.</span></a>).</p>
+</div>
+<div class="section" id="paso-3-terminacion">
+<h2>Paso 3: Terminación<a class="headerlink" href="#paso-3-terminacion" title="Permalink to this headline">¶</a></h2>
+<p>El crecimiento de la cadena de aminoácidos termina cuando aparece un codón de alto en el mRNA (UAA, UAG, AGA), en el sitio A. También aparecen unas proteínas llamadas factores de liberación que reconocen los codones de terminación. Estos factores intervienen con la enzima que hacen los enlaces entre los aminoácidos provocando que la proteína recén fabricacada se libere (ver <a class="reference internal" href="#terminacion"><span class="std std-ref">Proceso de terminación</span></a>).</p>
+<br>
+<div class="figure align-default" id="terminacion">
+<a class="reference internal image-reference" href="../_images/traduccion_terminacion.png"><img alt="../_images/traduccion_terminacion.png" src="../_images/traduccion_terminacion.png" style="height: 400px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 17 </span><span class="caption-text">Proceso de terminación</span><a class="headerlink" href="#terminacion" title="Permalink to this image">¶</a></p>
+</div>
+<br>
+</div>
+<div class="section" id="modificaciones-post-traduccion">
+<h2>Modificaciones post-traducción<a class="headerlink" href="#modificaciones-post-traduccion" title="Permalink to this headline">¶</a></h2>
+<p>Una vez que las proteínas son sintetizadas, se pliegan y pueden sufrir algunas modificaciones químicas como:</p>
 <ul class="simple">
-<li><p>La replicación del DNA es semiconservativa. Cada hebra de la doble hélice funciona como molde para la síntesisi de una cadena complementaria.</p></li>
-<li><p>La replicación lleva un sentido de 5’ -&gt; 3’</p></li>
+<li><p>Pérdida de secuencias de señal</p></li>
+<li><p>Modificaciones amino-terminales y carboxilo-terminales</p></li>
+<li><p>Modificaciones de aminoácidos concretos</p></li>
+<li><p>Unión de cadenas glúcidicas</p></li>
+<li><p>Modificaciones proteolíticas</p></li>
+<li><p>Formación de puentes disulfuro</p></li>
 </ul>
-</div>
-<div class="section" id="paso-1-desenrrollamiento-del-dna-y-apertura-de-las-hebras">
-<h2>Paso 1: Desenrrollamiento del DNA y apertura de las hebras<a class="headerlink" href="#paso-1-desenrrollamiento-del-dna-y-apertura-de-las-hebras" title="Permalink to this headline">¶</a></h2>
-<p>Recordemos que el DNA tiene forma de hélice y está conformado por dos cadenas de nucleótidos que interactuan entre si. Para poder acceder a la información contenida en alguna de las cadenas, necesitamos desenrrollar la hélice y romper las interacciones, para ello participan dos enzimas: la topoisomerasa y la helicasa (ver <a class="reference internal" href="#replicacion-paso1"><span class="std std-ref">Paso 1 de la replicación: Desenrrollamiento.</span></a>).</p>
-<div class="figure align-default" id="replicacion-paso1">
-<a class="reference internal image-reference" href="../_images/dna_replicacion_paso1.png"><img alt="../_images/dna_replicacion_paso1.png" src="../_images/dna_replicacion_paso1.png" style="height: 300px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 8 </span><span class="caption-text">Paso 1 de la replicación: Desenrrollamiento.</span><a class="headerlink" href="#replicacion-paso1" title="Permalink to this image">¶</a></p>
-</div>
-</div>
-<div class="section" id="paso-2-copia-del-dna">
-<h2>Paso 2: Copia del DNA<a class="headerlink" href="#paso-2-copia-del-dna" title="Permalink to this headline">¶</a></h2>
-<p>Es importante mencionar que la replicación del DNA avanza en forma de horquilla, es decir, avanza por partes, mientras se desenrrolla y separa una sección, el resto del DNA sigue en forma de doble hélice, de manera que se forma una horquilla como la que se ve en la figura.</p>
-<br>
-<p>Una vez que la cadena doble hélice está abierta y separada, tenemos acceso a la información que está contenida en los nucleótidos y sólo queda copiarla. Cuando sacamos copias fotostáticas de un libro, necesitamos material ¿no es cierto?, necesitamos hojas, tinta, una máquina fotocopiadora e incluso un separador que indica donde comenzar a fotocopiar. Bueno, pues acá sucede lo mismo, para copiar el DNA necesitamos material, la intervención de otras proteínas y moléculas. Primero la fotocopiadora, en ese caso la máquina (enzima) necesaria se llama <em><strong>DNA polimerasa</strong></em>. Luego el separador que indica donde iniciar, llamado  <strong>primer o cebador</strong> y por último,  las hojas y las tinta, en este caso los <em><strong>dNTPs o desoxinucleótidos trifosfato</strong></em>, los dNTPs van a contener los nucleótidos de complemento.</p>
-<br>
-<p>El proceso consiste en lo siguiente:</p>
-<ol class="simple">
-<li><p>Se coloca un primer en el sitio de inicion de la cadena que se va a copiar.</p></li>
-<li><p>Se coloca la polimerasa en el sitio de inicio y comienza a avanzar en la cadena.</p></li>
-<li><p>A medida que la polimerasa avanza, se van poniendo los nucleotidos que correspondan, es decir, si la hebra original es ATCG, la hebra copia será TAGC, porque son los nucleótidos con los que interactuan los originales (ver <a class="reference internal" href="#replicacion-paso2"><span class="std std-ref">Paso 2 de la replicación: Copia del DNA.</span></a>).</p></li>
-</ol>
-<div class="margin sidebar">
-<p class="sidebar-title"></p>
-<div class="important admonition">
-<p class="admonition-title">Importante</p>
-<p>El primer es una pequeña cadena de RNA y es colocado en la cadena por otra enzima llamada primasa.</p>
-</div>
-</div>
-<br>
-<p>Ahora, otro detalle, la replicación del DNA va de 5’ -&gt; 3’, esto quiere decir que una cadena la replicación va a ser fluida y fácil, ésta cadena se llama <em><strong>cadena líder</strong></em>. Mientras que la otra (la que va de 3’ -&gt; 5’), también conocida como <em><strong>cadena rezagada</strong></em> va a tener pasos extra. Debido a que la polimerasa al momento de ir leyendo en sentido contrario hace pequeños saltos, dando lugar a pequeños espacios llamados <em><strong>fragmentos de Okazaki</strong></em>. En ésta cadena, interviene una enzima extra llamada <em><strong>ligasa</strong></em>, como su nombre indica su trabajo es ligar/unir/pegar dichos fragmentos para que se tenga una sola cadena (ver <a class="reference internal" href="#replicacion-paso2"><span class="std std-ref">Paso 2 de la replicación: Copia del DNA.</span></a>).</p>
-<div class="figure align-default" id="replicacion-paso2">
-<a class="reference internal image-reference" href="../_images/dna_replicacion_paso2.png"><img alt="../_images/dna_replicacion_paso2.png" src="../_images/dna_replicacion_paso2.png" style="height: 500px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 9 </span><span class="caption-text">Paso 2 de la replicación: Copia del DNA.</span><a class="headerlink" href="#replicacion-paso2" title="Permalink to this image">¶</a></p>
-</div>
 <div class="tip admonition">
-<p class="admonition-title">Animación de la replicación</p>
-<p>Una vez que hayas terminado de leer éste apartado te recomiendo ver el siguiente video: <a href = "https://www.youtube.com/watch?v=TNKWgcFPHqw"> Replicación del DNA </a>, de esa forma quedará más claro el proceso y podrás visualizarlo como una peli.</p>
+<p class="admonition-title">Animación de la traducción</p>
+<p>Una vez que hayas terminado de leer éste apartado, te recomiendo ver el siguiente video: <a href = "https://www.youtube.com/watch?v=TfYf_rPWUdY">Traducción de mRNA </a></p>
 </div>
 </div>
 </div>
@@ -347,8 +380,8 @@
         
         <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="00_dogma_central.html" title="previous page">¿Qué es?</a>
-    <a class='right-next' id="next-link" href="02_transcripcion.html" title="next page">Transcripción</a>
+    <a class='left-prev' id="prev-link" href="02_transcripcion.html" title="previous page">Transcripción</a>
+    <a class='right-next' id="next-link" href="../Glosario.html" title="next page">Glosario</a>
 
         </div>
         
