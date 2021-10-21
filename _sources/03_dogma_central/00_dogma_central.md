@@ -15,7 +15,7 @@ El ***dogma central de la biología molecular*** es una hipótesis que planteó 
 
 ```{figure} ../images/dogma.png
 ---
-height: 3000px
+height: 300px
 name: dogma
 ---
 Dogma central.
