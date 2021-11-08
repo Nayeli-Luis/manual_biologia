@@ -4,11 +4,9 @@
 format: jb-book
 root: 00_intro
 parts:
-  - caption: Biomoléculas
+  - caption: Conceptos básicos
     chapters:
     - file: 01_biomoleculas
-  - caption: Estructura del DNA
-    chapters:
     - file: 02_estructura_DNA
   - caption: Dogma central de la biología molecular
     chapters:
@@ -16,6 +14,13 @@ parts:
     - file: 03_dogma_central/01_replicacion
     - file: 03_dogma_central/02_transcripcion
     - file: 03_dogma_central/03_traduccion
+  - caption: Métodos de biología molecular
+    chapters:
+    - file: 04_metodos_biol_mol/00_generalidades
+    - file: 04_metodos_biol_mol/01_extraccion_dna
+    - file: 04_metodos_biol_mol/02_amplificacion
+    - file: 04_metodos_biol_mol/03_electroforesis
+    - file: 04_metodos_biol_mol/04_secuenciacion
   - caption: Glosario
     chapters:
     - file: Glosario

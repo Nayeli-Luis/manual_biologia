@@ -4,7 +4,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>Estructura del DNA &#8212; Genómica computacional. Manual de biología molecular para no biólogos.</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
@@ -22,8 +23,8 @@
       
 
     
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/sphinx-book-theme.5f77b4aec8189eecf79907ce328c390d.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.5f77b4aec8189eecf79907ce328c390d.css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
@@ -33,17 +34,17 @@
     
   <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
 
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <script async="async" src="https://unpkg.com/thebe@latest/lib/index.js"></script>
-    <script >
+    <script>
         const thebe_selector = ".thebe"
         const thebe_selector_input = "pre"
         const thebe_selector_output = ".output"
@@ -89,31 +90,24 @@
   </a>
  </li>
 </ul>
-<p class="caption">
+<p class="caption" role="heading">
  <span class="caption-text">
-  Biomoléculas
+  Conceptos básicos
  </span>
 </p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="01_biomoleculas.html">
    Biomoléculas
   </a>
  </li>
-</ul>
-<p class="caption">
- <span class="caption-text">
-  Estructura del DNA
- </span>
-</p>
-<ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Estructura del DNA
   </a>
  </li>
 </ul>
-<p class="caption">
+<p class="caption" role="heading">
  <span class="caption-text">
   Dogma central de la biología molecular
  </span>
@@ -140,7 +134,39 @@
   </a>
  </li>
 </ul>
-<p class="caption">
+<p class="caption" role="heading">
+ <span class="caption-text">
+  Métodos de biología molecular
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="04_metodos_biol_mol/00_generalidades.html">
+   Introducción
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04_metodos_biol_mol/01_extraccion_dna.html">
+   Extracción de DNA
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04_metodos_biol_mol/02_amplificacion.html">
+   Amplificación
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04_metodos_biol_mol/03_electroforesis.html">
+   Electroforesis
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04_metodos_biol_mol/04_secuenciacion.html">
+   Secuenciación del DNA
+  </a>
+ </li>
+</ul>
+<p class="caption" role="heading">
  <span class="caption-text">
   Glosario
  </span>
@@ -269,13 +295,13 @@
         
               <div>
                 
-  <div class="section" id="estructura-del-dna">
+  <section id="estructura-del-dna">
 <h1>Estructura del DNA<a class="headerlink" href="#estructura-del-dna" title="Permalink to this headline">¶</a></h1>
 <div class="tip admonition">
 <p class="admonition-title">Objetivo</p>
 <p>Comprender el concepto de gen y codificación de genes.</p>
 </div>
-<div class="section" id="videos-y-otros-recursos">
+<section id="videos-y-otros-recursos">
 <h2>Videos y otros recursos<a class="headerlink" href="#videos-y-otros-recursos" title="Permalink to this headline">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -285,36 +311,40 @@
 <p><a href = "https://www.youtube.com/watch?v=BIP0lYrdirI"> Rosalind Franklin: DNA’s unsung hero</a></p>
 <p><a href = "https://www.youtube.com/watch?v=r6p_T9qLLfU"> James Watson on X-ray crystallographer Rosalind Franklin</a></p>
 </div>
-</div>
-<div class="section" id="empaquetamiento-del-dna-cromosomas-y-genes">
+</section>
+<section id="empaquetamiento-del-dna-cromosomas-y-genes">
 <h2>Empaquetamiento del DNA: Cromosomas y genes.<a class="headerlink" href="#empaquetamiento-del-dna-cromosomas-y-genes" title="Permalink to this headline">¶</a></h2>
 <p>Como vimos en el capítulo anterior, el DNA es una biomolécula formada por la interacción de de dos cadenas de nucleótidos, las cuales forman la famosa doble hélice. Dado que el DNA contiene toda la información genética, es natural que la cadena doble hélice sea demasiado larga, de manera que, es necesario empaquetarla para economizar espacio en la célula. El proceso de empaquetamiento del DNA incluye un montón de pasos moleculares, cuyo conocimiento no son objetivo de este curso. De manera general, de una cadena doble -larguísima- de DNA se llega a una estructura super empaquetada llamada <em><strong>cromosoma</strong></em>.
 <br>
 Ahora, los cromosomas contienen genes. Un <em><strong>gen</strong></em> es la unidad molecular de la herencia genética, pues almacena información específica y permite transmitirla a una descendencia. También podemos decir que un gen es un fragmento de DNA que generalmente va a <em><strong>codificar</strong></em> para una proteína.</p>
-<div class="figure align-default" id="cromosoma">
+<figure class="align-default" id="cromosoma">
 <a class="reference internal image-reference" href="_images/gen.png"><img alt="_images/gen.png" src="_images/gen.png" style="height: 250px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 5 </span><span class="caption-text">Visión general de un cromosoma y un gen.</span><a class="headerlink" href="#cromosoma" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 5 </span><span class="caption-text">Visión general de un cromosoma y un gen.</span><a class="headerlink" href="#cromosoma" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
 <p>¿Codificar?
 <br></p>
-</div>
-<div class="section" id="el-lenguaje-del-dna">
+</section>
+<section id="el-lenguaje-del-dna">
 <h2>El lenguaje del DNA<a class="headerlink" href="#el-lenguaje-del-dna" title="Permalink to this headline">¶</a></h2>
 <p>¿Alguna vez has escuchado el término <em><strong>código genético</strong></em>? Pues se refiere a las instrucciones que contiene un gen para que la célula fabrique una proteína específica. Así como “las letras ” del código binario son 0 y 1, “las letras” del DNA son: A (adenina), T (timina), C (citosina) y G (guanina). Entonces, el código de cada gen combina los cuatro compuestos químicos de diferentes maneras para formar codones, tres letras del código del DNA es igual a un codón y cuando traducimos un codón obtenemos un aminoácido (<em><strong>OJO AQUI</strong></em>: Se requiere la traducción del DNA para saber que aminácido será).</p>
-<div class="margin sidebar">
+<aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <div class="tip dropdown admonition">
 <p class="admonition-title">Amable recordatorio</p>
 <p>A, T, G  y C son las bases  nitrogenadas que forman parte de los nucleótidos.</p>
 </div>
-</div>
-<div class="figure align-default" id="codon">
+</aside>
+<figure class="align-default" id="codon">
 <a class="reference internal image-reference" href="_images/codon.png"><img alt="_images/codon.png" src="_images/codon.png" style="height: 250px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">Traducción de codones a aminoácidos.</span><a class="headerlink" href="#codon" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Traducción de codones a aminoácidos.</span><a class="headerlink" href="#codon" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
 <br>
-</div>
-<div class="section" id="proporcion-de-las-bases-nitrogenadas">
+</section>
+<section id="proporcion-de-las-bases-nitrogenadas">
 <h2>Proporción de las bases nitrogenadas<a class="headerlink" href="#proporcion-de-las-bases-nitrogenadas" title="Permalink to this headline">¶</a></h2>
 <p>En el estudio de la genómica es importante conocer la proporciones de las bases nitrogenadas debido a que éstas son diferentes en los organismos. De acuerdo con Chargaff (1950), la proporción de bases nitrogenadas siguen éstas reglas:</p>
 <ul class="simple">
@@ -323,8 +353,8 @@ Ahora, los cromosomas contienen genes. Un <em><strong>gen</strong></em> es la un
 <li><p>La proporción de A+G es igual a la de T+C. Es decir, (A+G)/(T+C) = 1.</p></li>
 <li><p>La proporción de A + T y G + C es característica de cada organismo.</p></li>
 </ul>
-</div>
-</div>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {

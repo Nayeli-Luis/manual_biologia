@@ -10,3 +10,9 @@ Creemos que la época en la que había expertos en una sola cosa ya ha pasado, p
 <br>
 
 **¡Gracias por estar aquí y esperamos que disfrutes de todo lo nuevo que vas a aprender!**
+
+:::{admonition} Atención
+:class: attention
+
+La mayoría de las figuras de este manual se realizaron con <a href = "https://biorender.com/">BioRender</a>
+:::

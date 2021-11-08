@@ -4,7 +4,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>Replicación &#8212; Genómica computacional. Manual de biología molecular para no biólogos.</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
@@ -22,8 +23,8 @@
       
 
     
-    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.5f77b4aec8189eecf79907ce328c390d.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.5f77b4aec8189eecf79907ce328c390d.css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
@@ -33,17 +34,17 @@
     
   <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
 
-    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/togglebutton.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <script async="async" src="https://unpkg.com/thebe@latest/lib/index.js"></script>
-    <script >
+    <script>
         const thebe_selector = ".thebe"
         const thebe_selector_input = "pre"
         const thebe_selector_output = ".output"
@@ -89,9 +90,9 @@
   </a>
  </li>
 </ul>
-<p class="caption">
+<p class="caption" role="heading">
  <span class="caption-text">
-  Biomoléculas
+  Conceptos básicos
  </span>
 </p>
 <ul class="nav bd-sidenav">
@@ -100,20 +101,13 @@
    Biomoléculas
   </a>
  </li>
-</ul>
-<p class="caption">
- <span class="caption-text">
-  Estructura del DNA
- </span>
-</p>
-<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../02_estructura_DNA.html">
    Estructura del DNA
   </a>
  </li>
 </ul>
-<p class="caption">
+<p class="caption" role="heading">
  <span class="caption-text">
   Dogma central de la biología molecular
  </span>
@@ -140,7 +134,39 @@
   </a>
  </li>
 </ul>
-<p class="caption">
+<p class="caption" role="heading">
+ <span class="caption-text">
+  Métodos de biología molecular
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../04_metodos_biol_mol/00_generalidades.html">
+   Introducción
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../04_metodos_biol_mol/01_extraccion_dna.html">
+   Extracción de DNA
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../04_metodos_biol_mol/02_amplificacion.html">
+   Amplificación
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../04_metodos_biol_mol/03_electroforesis.html">
+   Electroforesis
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../04_metodos_biol_mol/04_secuenciacion.html">
+   Secuenciación del DNA
+  </a>
+ </li>
+</ul>
+<p class="caption" role="heading">
  <span class="caption-text">
   Glosario
  </span>
@@ -264,7 +290,7 @@
         
               <div>
                 
-  <div class="section" id="replicacion">
+  <section id="replicacion">
 <h1>Replicación<a class="headerlink" href="#replicacion" title="Permalink to this headline">¶</a></h1>
 <div class="note admonition">
 <p class="admonition-title">Videos</p>
@@ -275,22 +301,24 @@
 <p class="admonition-title">Warning</p>
 <p>La replicación del DNA NO es lo mismo que la división celular.</p>
 </div>
-<div class="section" id="caracteristicas-de-la-replicacion">
+<section id="caracteristicas-de-la-replicacion">
 <h2>Características de la replicación<a class="headerlink" href="#caracteristicas-de-la-replicacion" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>La replicación del DNA es semiconservativa. Cada hebra de la doble hélice funciona como molde para la síntesisi de una cadena complementaria.</p></li>
 <li><p>La replicación lleva un sentido de 5’ -&gt; 3’</p></li>
 </ul>
-</div>
-<div class="section" id="paso-1-desenrrollamiento-del-dna-y-apertura-de-las-hebras">
+</section>
+<section id="paso-1-desenrrollamiento-del-dna-y-apertura-de-las-hebras">
 <h2>Paso 1: Desenrrollamiento del DNA y apertura de las hebras<a class="headerlink" href="#paso-1-desenrrollamiento-del-dna-y-apertura-de-las-hebras" title="Permalink to this headline">¶</a></h2>
 <p>Recordemos que el DNA tiene forma de hélice y está conformado por dos cadenas de nucleótidos que interactuan entre si. Para poder acceder a la información contenida en alguna de las cadenas, necesitamos desenrrollar la hélice y romper las interacciones, para ello participan dos enzimas: la topoisomerasa y la helicasa (ver <a class="reference internal" href="#replicacion-paso1"><span class="std std-ref">Paso 1 de la replicación: Desenrrollamiento.</span></a>).</p>
-<div class="figure align-default" id="replicacion-paso1">
+<figure class="align-default" id="replicacion-paso1">
 <a class="reference internal image-reference" href="../_images/dna_replicacion_paso1.png"><img alt="../_images/dna_replicacion_paso1.png" src="../_images/dna_replicacion_paso1.png" style="height: 300px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 8 </span><span class="caption-text">Paso 1 de la replicación: Desenrrollamiento.</span><a class="headerlink" href="#replicacion-paso1" title="Permalink to this image">¶</a></p>
-</div>
-</div>
-<div class="section" id="paso-2-copia-del-dna">
+<figcaption>
+<p><span class="caption-number">Fig. 8 </span><span class="caption-text">Paso 1 de la replicación: Desenrrollamiento.</span><a class="headerlink" href="#replicacion-paso1" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="paso-2-copia-del-dna">
 <h2>Paso 2: Copia del DNA<a class="headerlink" href="#paso-2-copia-del-dna" title="Permalink to this headline">¶</a></h2>
 <p>Es importante mencionar que la replicación del DNA avanza en forma de horquilla, es decir, avanza por partes, mientras se desenrrolla y separa una sección, el resto del DNA sigue en forma de doble hélice, de manera que se forma una horquilla como la que se ve en la figura.</p>
 <br>
@@ -302,25 +330,27 @@
 <li><p>Se coloca la polimerasa en el sitio de inicio y comienza a avanzar en la cadena.</p></li>
 <li><p>A medida que la polimerasa avanza, se van poniendo los nucleotidos que correspondan, es decir, si la hebra original es ATCG, la hebra copia será TAGC, porque son los nucleótidos con los que interactuan los originales (ver <a class="reference internal" href="#replicacion-paso2"><span class="std std-ref">Paso 2 de la replicación: Copia del DNA.</span></a>).</p></li>
 </ol>
-<div class="margin sidebar">
+<aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <div class="important admonition">
 <p class="admonition-title">Importante</p>
 <p>El primer es una pequeña cadena de RNA y es colocado en la cadena por otra enzima llamada primasa.</p>
 </div>
-</div>
+</aside>
 <br>
 <p>Ahora, otro detalle, la replicación del DNA va de 5’ -&gt; 3’, esto quiere decir que una cadena la replicación va a ser fluida y fácil, ésta cadena se llama <em><strong>cadena líder</strong></em>. Mientras que la otra (la que va de 3’ -&gt; 5’), también conocida como <em><strong>cadena rezagada</strong></em> va a tener pasos extra. Debido a que la polimerasa al momento de ir leyendo en sentido contrario hace pequeños saltos, dando lugar a pequeños espacios llamados <em><strong>fragmentos de Okazaki</strong></em>. En ésta cadena, interviene una enzima extra llamada <em><strong>ligasa</strong></em>, como su nombre indica su trabajo es ligar/unir/pegar dichos fragmentos para que se tenga una sola cadena (ver <a class="reference internal" href="#replicacion-paso2"><span class="std std-ref">Paso 2 de la replicación: Copia del DNA.</span></a>).</p>
-<div class="figure align-default" id="replicacion-paso2">
+<figure class="align-default" id="replicacion-paso2">
 <a class="reference internal image-reference" href="../_images/dna_replicacion_paso2.png"><img alt="../_images/dna_replicacion_paso2.png" src="../_images/dna_replicacion_paso2.png" style="height: 500px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 9 </span><span class="caption-text">Paso 2 de la replicación: Copia del DNA.</span><a class="headerlink" href="#replicacion-paso2" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 9 </span><span class="caption-text">Paso 2 de la replicación: Copia del DNA.</span><a class="headerlink" href="#replicacion-paso2" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
 <div class="tip admonition">
 <p class="admonition-title">Animación de la replicación</p>
 <p>Una vez que hayas terminado de leer éste apartado te recomiendo ver el siguiente video: <a href = "https://www.youtube.com/watch?v=TNKWgcFPHqw"> Replicación del DNA </a>, de esa forma quedará más claro el proceso y podrás visualizarlo como una peli.</p>
 </div>
-</div>
-</div>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {

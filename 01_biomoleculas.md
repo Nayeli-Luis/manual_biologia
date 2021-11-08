@@ -1,5 +1,7 @@
 # Biomoléculas
 
+<!--Mejorar los diagramas que se usan -->
+
 :::{admonition} Objetivo
 :class: tip
 Comprender a los ácidos nucléicos y las proteínas como biomoléculas importantes para la bioinformática.
