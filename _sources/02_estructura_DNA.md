@@ -1,6 +1,5 @@
-
-
 # Estructura del DNA
+**Autora: M. Nayeli Luis-Vargas**
 
 :::{admonition} Objetivo
 :class: tip
