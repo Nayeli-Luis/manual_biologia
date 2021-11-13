@@ -1,4 +1,5 @@
 # Replicación
+**Autora: M. Nayeli Luis-Vargas**
 
 :::{admonition} Videos
 :class: note
@@ -45,7 +46,7 @@ El proceso consiste en lo siguiente:
 
 ::::{margin}
 :::{admonition} Importante
-:class: important
+:class: tip
 El primer es una pequeña cadena de RNA y es colocado en la cadena por otra enzima llamada primasa.
 :::
 ::::

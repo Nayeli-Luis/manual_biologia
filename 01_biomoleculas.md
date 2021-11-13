@@ -1,5 +1,5 @@
 # Biomoléculas
-
+**Autora: M. Nayeli Luis-Vargas**
 <!--Mejorar los diagramas que se usan -->
 
 :::{admonition} Objetivo

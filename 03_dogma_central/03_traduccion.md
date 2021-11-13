@@ -1,4 +1,5 @@
 # Traducción
+**Autora: M. Nayeli Luis-Vargas**
 
 :::{admonition} Videos
 :class: note

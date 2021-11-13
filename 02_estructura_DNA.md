@@ -1,14 +1,12 @@
-
-
 # Estructura del DNA
+**Autora: M. Nayeli Luis-Vargas**
 
 :::{admonition} Objetivo
 :class: tip
 Comprender el concepto de gen y codificación de genes.
 :::
 
-## Videos y otros recursos
-:::{note}
+:::{note} Vídeos y otros recursos
 Aquí un video que explica con detalle la estructura del DNA.
 
 <a href = "https://drive.google.com/file/d/1nJzvUg8TZ5ikCszAUEYR8k4gw76yVo-e/view?usp=sharing"> La estructura del DNA </a>
